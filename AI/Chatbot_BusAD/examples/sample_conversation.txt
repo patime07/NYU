@@ -1,0 +1,120 @@
+01. User: Hello!
+Bot: Hello! Welcome to the Abu Dhabi Bus Assistant. How can I help you?
+
+02. User: What can you do?
+Bot: I can help you with:
+- Hafilat cards and prices
+- Route 170 and its known stops
+- Stored weekday departures from NYU Abu Dhabi toward Al Zeina
+- Bus fares
+- Hafilat card recharge
+
+03. User: What is a Hafilat card?
+Bot: Hafilat is a smart card used to pay for public bus journeys in Abu Dhabi. Tap the card when boarding and alighting. Available card types: Anonymous Card, Personalized Card. Anonymous cards: Bus station customer happiness offices, Ticket vending machines, Lulu Hypermarket, Lulu Exchange, Abu Dhabi Cooperative Society, Zayed International Airport office. Personalized card applications: Bus station customer happiness offices, Zayed International Airport office, Online application through https://hafilat.darb.ae.
+
+04. User: Where can I buy a Hafilat card?
+Bot: Hafilat is a smart card used to pay for public bus journeys in Abu Dhabi. Tap the card when boarding and alighting. Available card types: Anonymous Card, Personalized Card. Anonymous cards: Bus station customer happiness offices, Ticket vending machines, Lulu Hypermarket, Lulu Exchange, Abu Dhabi Cooperative Society, Zayed International Airport office. Personalized card applications: Bus station customer happiness offices, Zayed International Airport office, Online application through https://hafilat.darb.ae.
+
+05. User: And its price?
+Bot: An anonymous Hafilat card costs 10 AED and a personalized card costs 0 AED.
+
+06. User: Is the Hafilat card free?
+Bot: An anonymous Hafilat card costs 10 AED and a personalized card costs 0 AED.
+
+07. User: How do I recharge my Hafilat card?
+Bot: You can recharge your Hafilat card at: Bus stations, Bus stops, Shopping centers, MBME recharge machines, Online through Hafilat website. Online recharge: https://hafilat.darb.ae.
+
+08. User: Can I add money to my card online?
+Bot: You can recharge your Hafilat card at: Bus stations, Bus stops, Shopping centers, MBME recharge machines, Online through Hafilat website. Online recharge: https://hafilat.darb.ae.
+
+09. User: Where are the Hafilat recharge machines?
+Bot: You can recharge your Hafilat card at: Bus stations, Bus stops, Shopping centers, MBME recharge machines, Online through Hafilat website. Online recharge: https://hafilat.darb.ae.
+
+10. User: How much does a bus ride cost?
+Bot: For Standard Service within cities and their suburbs, excluding intercity services, the stored fare is a base fare of 2.0 AED, plus 0.05 AED per kilometer, up to 5.0 AED.
+
+11. User: Are there discounts on bus fares?
+Bot: For Standard Service within cities and their suburbs, excluding intercity services, the stored policy lists free travel for children aged 10 and under. I don't have other discount policies.
+
+12. User: Which bus goes to NYU Abu Dhabi?
+Bot: For travel to NYU Abu Dhabi, Route 170: Al Zeina - Abu Dhabi Bus Station - NYU Abu Dhabi.
+
+13. User: And how do I recharge my card?
+Bot: You can recharge your Hafilat card at: Bus stations, Bus stops, Shopping centers, MBME recharge machines, Online through Hafilat website. Online recharge: https://hafilat.darb.ae.
+
+14. User: What bus should I take to Al Zeina?
+Bot: For travel to Al Zeina, Route 170: Al Zeina - Abu Dhabi Bus Station - NYU Abu Dhabi.
+
+15. User: What destinations does this bus route cover?
+Bot: For travel to Al Zeina, Route 170: Al Zeina - Abu Dhabi Bus Station - NYU Abu Dhabi.
+
+16. User: Where is the bus stop at NYU Abu Dhabi?
+Bot: The main bus station is Abu Dhabi Bus Station. Route 170 serves NYU Abu Dhabi.
+
+17. User: Does route 170 stop at NYU?
+Bot: The main bus station is Abu Dhabi Bus Station. Route 170 serves NYU Abu Dhabi.
+
+18. User: When do the buses start operating?
+Bot: For route 170, the first listed weekday departure from Saadiyat New York University 2 that reaches Al Zeina is 06:36 and the last is 22:21.
+
+19. User: When does the bus service end?
+Bot: For route 170, the first listed weekday departure from Saadiyat New York University 2 that reaches Al Zeina is 06:36 and the last is 22:21.
+
+20. User: When does it stop running?
+Bot: For route 170, the first listed weekday departure from Saadiyat New York University 2 that reaches Al Zeina is 06:36 and the last is 22:21.
+
+21. User: When does the next bus arrive?
+Bot: I don't have live arrival predictions. For route 170 from Saadiyat New York University 2 reaching Al Zeina, the stored weekday first departure is 06:36 and the last is 22:21. Check the official timetable for exact departures: https://admobility.gov.ae/ckfinder/userfiles/files/BusService170.pdf.
+
+22. User: How often does this bus run?
+Bot: Departure intervals vary by time of day; there is no fixed all-day frequency. I don't have live arrival predictions. For route 170 from Saadiyat New York University 2 reaching Al Zeina, the stored weekday first departure is 06:36 and the last is 22:21. Check the official timetable for exact departures: https://admobility.gov.ae/ckfinder/userfiles/files/BusService170.pdf.
+
+23. User: And on Saturday?
+Bot: I don't have weekend or holiday departure times. The stored timetable covers weekdays only. Check the official timetable: https://admobility.gov.ae/ckfinder/userfiles/files/BusService170.pdf.
+
+24. User: What time does bus 94 arrive?
+Bot: I don't have information for route 94. My knowledge base only covers route 170.
+
+25. User: And its operating hours?
+Bot: I don't have information for route 94. My knowledge base only covers route 170.
+
+26. User: What about 170?
+Bot: For route 170, the first listed weekday departure from Saadiyat New York University 2 that reaches Al Zeina is 06:36 and the last is 22:21.
+
+27. User: Which bus goes to NYU Abu Dhabi?
+Bot: For travel to NYU Abu Dhabi, Route 170: Al Zeina - Abu Dhabi Bus Station - NYU Abu Dhabi.
+
+28. User: And the timetable?
+Bot: I don't have departure times toward NYU Abu Dhabi. The stored timetable only covers departures from NYU Abu Dhabi toward Al Zeina.
+
+29. User: What about Al Zeina?
+Bot: I don't have live arrival predictions. For route 170 from Saadiyat New York University 2 reaching Al Zeina, the stored weekday first departure is 06:36 and the last is 22:21. Check the official timetable for exact departures: https://admobility.gov.ae/ckfinder/userfiles/files/BusService170.pdf.
+
+30. User: Which bus goes to Yas Island?
+Bot: I don't have route information for yas island. I only know the listed stops on route 170.
+
+31. User: And the timetable?
+Bot: I don't have route information for yas island. I only know the listed stops on route 170.
+
+32. User: What bus should I take to Al Zeina?
+Bot: For travel to Al Zeina, Route 170: Al Zeina - Abu Dhabi Bus Station - NYU Abu Dhabi.
+
+33. User: And the timetable?
+Bot: I don't have live arrival predictions. For route 170 from Saadiyat New York University 2 reaching Al Zeina, the stored weekday first departure is 06:36 and the last is 22:21. Check the official timetable for exact departures: https://admobility.gov.ae/ckfinder/userfiles/files/BusService170.pdf.
+
+34. User: What is the weather today?
+Bot: Sorry, I didn't understand your question. Please ask about Abu Dhabi buses or type 'help' to see what I can assist you with.
+
+35. User: What about pizza?
+Bot: Sorry, I didn't understand your question. Please ask about Abu Dhabi buses or type 'help' to see what I can assist you with.
+
+36. User: Help!
+Bot: I can help you with:
+- Hafilat cards and prices
+- Route 170 and its known stops
+- Stored weekday departures from NYU Abu Dhabi toward Al Zeina
+- Bus fares
+- Hafilat card recharge
+
+37. User: Bye!
+Bot: Goodbye! Have a safe journey!

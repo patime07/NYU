@@ -25,10 +25,10 @@ patterns = {
     ],
 
     "bus_routes": [
-        "which bus goes to yas island",
-        "what bus should i take to my destination",
-        "which route goes to the airport",
-        "how can i get to the corniche by bus",
+        "which bus goes to nyu abu dhabi",
+        "what bus should i take to al zeina",
+        "which route goes to abu dhabi bus station",
+        "how can i get to nyu by bus",
         "what destinations does this bus route cover"
     ],
 
@@ -49,16 +49,16 @@ patterns = {
     ],
 
     "bus_stops": [
-        "where is the nearest bus stop",
+        "where is the bus stop at nyu abu dhabi",
         "how can i find a bus station",
         "where can i catch the bus",
-        "is there a bus stop near the airport",
+        "does route 170 stop at nyu",
         "where is the bus stop for this route"
     ],
 
     "bus_schedules": [
         "when does the next bus arrive",
-        "what time does bus 94 arrive",
+        "what time does bus 170 arrive",
         "how often does this bus run",
         "what is the timetable for this route",
         "when is the next departure"

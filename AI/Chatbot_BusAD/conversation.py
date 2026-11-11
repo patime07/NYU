@@ -1,3 +1,7 @@
+"""General conversational functions, separate from the eight domain intents."""
+from intent_detection import preprocess
+
+
 def greeting():
     return "Hello! Welcome to the Abu Dhabi Bus Assistant. How can I help you?"
 
@@ -10,8 +14,8 @@ def help():
     return (
         "I can help you with:\n"
         "- Hafilat cards and prices\n"
-        "- Bus routes and stops\n"
-        "- Operating hours and schedules\n"
+        "- Route 170 and its known stops\n"
+        "- Stored weekday departures from NYU Abu Dhabi toward Al Zeina\n"
         "- Bus fares\n"
         "- Hafilat card recharge"
     )
@@ -27,7 +31,7 @@ def fallback():
 
 
 def detect_conversation_type(user_input):
-    text = user_input.lower().strip()
+    text = preprocess(user_input)
 
     greetings = {"hello", "hi", "hey", "good morning"}
     goodbyes = {"bye", "goodbye", "exit", "quit", "see you"}

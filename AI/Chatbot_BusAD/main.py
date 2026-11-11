@@ -6,6 +6,20 @@ from context import create_context, resolve_intent, update_context
 from conversation import detect_conversation_type, greeting, goodbye, help as help_response, fallback
 
 
+def respond(user_input, context):
+    """Shared entry point for the CLI, regression tests, and sample dialogue."""
+    conversation_type = detect_conversation_type(user_input)
+    commands = {"greeting": greeting, "goodbye": goodbye, "help": help_response}
+    if conversation_type in commands:
+        return commands[conversation_type]()
+    if not user_input.strip():
+        return fallback()
+    detected_intent = detect_intent(user_input, patterns)
+    intent = resolve_intent(user_input, detected_intent, context)
+    update_context(intent, context)
+    return generate_response(intent, knowledge_base, context, user_input) if intent else fallback()
+
+
 def main():
     context = create_context()
     print(greeting())
@@ -15,23 +29,10 @@ def main():
         except (EOFError, KeyboardInterrupt):
             print("\nBot:", goodbye())
             break
-        if not user_input:
-            print("Bot:", fallback())
-            continue
-        conversation_type = detect_conversation_type(user_input)
-        if conversation_type == "goodbye":
-            print("Bot:", goodbye())
-            break
-        if conversation_type == "greeting":
-            response = greeting()
-        elif conversation_type == "help":
-            response = help_response()
-        else:
-            detected_intent = detect_intent(user_input, patterns)
-            intent = resolve_intent(user_input, detected_intent, context)
-            response = generate_response(intent, knowledge_base) if intent else fallback()
-            update_context(intent, context)
+        response = respond(user_input, context)
         print("Bot:", response)
+        if detect_conversation_type(user_input) == "goodbye":
+            break
 
 
 if __name__ == "__main__":
